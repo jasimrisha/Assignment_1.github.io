@@ -23,7 +23,6 @@ export default class CalendarView extends React.Component {
 
       initialData.push({ "id":index,"start": startTime,"end":endTime ,backgroundColor:"red"})
     })
-    console.log("init", initialData)
     this.setState({ initialData: initialData })
   }
   componentDidMount() {
@@ -32,7 +31,6 @@ export default class CalendarView extends React.Component {
 
 
   render() {
-    console.log("initialData", this.state.initialData)
     return (
       <div className='demo-app'>
         <div className='demo-app-main'>
@@ -53,7 +51,6 @@ export default class CalendarView extends React.Component {
             eventContent={renderEventContent} 
             eventClick={this.handleEventClick}
             eventsSet={this.handleEvents} 
-          
             events={this.state.initialData}
           />
         </div></div>
@@ -63,44 +60,19 @@ export default class CalendarView extends React.Component {
 
 
   handleEvents = (events) => {
-    console.log("events",events)
     this.setState({
       currentEvents: events
     })
   }
+
   handleWeekendsToggle = () => {
     this.setState({
       weekendsVisible: !this.state.weekendsVisible
     })
   }
-
-
-  handleDateClick = (arg) => { // bind with an arrow function
-    alert(arg.dateStr)
-  }
-
-
-  //   handleDateSelect = (selectInfo) => {
-  //     let title = prompt('Please enter a new title for your event')
-  //     let calendarApi = selectInfo.view.calendar
-
-  //     calendarApi.unselect() // clear date selection
-
-  //     if (title) {
-  //       calendarApi.addEvent({
-  //         id: createEventId(),
-  //         title,
-  //         start: selectInfo.startStr,
-  //         end: selectInfo.endStr,
-  //         allDay: selectInfo.allDay
-  //       })
-  //     }
-  //   }
 }
 
 function renderEventContent(eventInfo) {
-  console.log("event.start",eventInfo)
-
   return (
     <>
       <b>{eventInfo.timeText}</b>
@@ -108,14 +80,4 @@ function renderEventContent(eventInfo) {
     </>
   )
 }
-
-function renderSidebarEvent(event) {
-  return (
-    <li key={event.id}>
-      <b>{formatDate(event.start, { year: 'numeric', month: 'short', day: 'numeric' })}</b>
-      <i>{event.title}</i>
-    </li>
-  )
-}
-
 
