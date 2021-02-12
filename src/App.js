@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Members from "./Members";
+import Members from "./Components/Members";
 import Grid from "@material-ui/core/Grid";
 import moment from 'moment'
 

@@ -5,7 +5,6 @@ import interactionPlugin from "@fullcalendar/interaction"; // needed for dayClic
 import timeGridPlugin from '@fullcalendar/timegrid';
 import moment from 'moment'
 
-let eventGuid = 0
 export default class CalendarView extends React.Component {
   constructor(props) {
     super(props)
@@ -51,7 +50,7 @@ export default class CalendarView extends React.Component {
             selectMirror={true}
             dayMaxEvents={true}
             weekends={this.state.weekendsVisible}
-            eventContent={renderEventContent} // custom render function
+            eventContent={renderEventContent} 
             eventClick={this.handleEventClick}
             eventsSet={this.handleEvents} 
           
