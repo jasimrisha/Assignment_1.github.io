@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+### About Project 
+This project is to show a list of users and their activity periods.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Libraries Used
+1. @material-ui/core. --> It is installed by ### npm install  @material-ui/core. This is used for designing the web pages
+  Some of the components are listed as Grid, Typography, Box,Avatar, Dialog,DialogeContent.
+2. React FullCalendar --> It is installed by ### npm install fullcalendar. This is used for showing activity period on Calendar.
+3. Moment             --> It is installed by ### npm install moment. This is used for converting Time To moment.
+4. axios.             --> It is installed by ### npm install moment. This is used for API Integration.
 
-## Available Scripts
+### Components
+1. MEMBERS         ==> a) This component is the main component called in the App.js file.
+                       b) This is a functional component.
+                       c) It renders the starting screen with Card that lists down users.
+                       d) On click of user name, a modal opens up. This model is called ModalComponent.
+2. MODALCOMPONENT  ==> a) This component is called on click of user as a popup.
+                       b) This component is again a functional component.
+                       c) It calls another component for CalendarView to view activity details
+                       
+3. CALENDARVIEW    ==> a) This component gives us the Calendar view.
+                       b) This component is a class component.
+                       c) It has buttons to navigate to next and previous month.
+                       d) Month button helps to view Monthwise activity.
+                       e) On click of Day button , user can view the time in which the user was active in a day.
+                       f) This component imports FullCalendar from React FullCalendar library.
+4. data.json        ==> This file is kept in the public folder of project and users data is called from this file using axios.get.
 
-In the project directory, you can run:
 
-### `yarn start`
+                 
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
