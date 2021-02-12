@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: thistle;
+
 }
 
 .App-logo {
@@ -13,19 +15,32 @@
   }
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: thistle;
+
+}
+
+.bg {
+background-color: thistle;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: thistle;
+
 }
 
 .App-link {
   color: #61dafb;
+  background-color: thistle;
+
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +50,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiDialog-paper {
+  margin: 32px;
+  /* margin-top: -210px !important; */
+  position: relative;
+  overflow-y: auto;
+}
+
+
+.fc-time-grid .fc-content-skeleton {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%; }
+
+ 
+
+  .fc-direction-ltr .fc-daygrid-event.fc-event-end, .fc-direction-rtl .fc-daygrid-event.fc-event-start {
+    margin-right: 2px;
+    background-color: red !important;
+}
+
+
+.cardMember{
+  padding:30px;
+  margin: 20px;
+  background-color: #d22f57;
+}
+
+
+.MuiPaper-elevation1 {
+  box-shadow: 10px 5px 6px 3px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
 }

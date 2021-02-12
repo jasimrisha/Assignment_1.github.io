@@ -1,0 +1,124 @@
+{
+	"ok": true,
+	"members": [{
+			"id": "W012A3CDE",
+			"real_name": "Egon Spengler",
+			"tz": "America/Los_Angeles",
+			"activity_periods": [{
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jan 1 2021  5:33PM",
+					"end_time": "Jan 1 2021 8:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA4",
+			"real_name": "Glinda Southgood",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jan 2 2021  9:33PM",
+					"end_time": "Jan 2 2021 10:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA9",
+			"real_name": "Robert Peterson",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+					"start_time": "Feb 2 2020  1:33PM",
+					"end_time": "Feb 2 2020 5:54PM"
+				},
+				{
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"start_time": "Dec 16 2020  10:33AM",
+					"end_time": "Dec 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jan 2 2021  9:33PM",
+					"end_time": "Jan 2 2021 10:02PM"
+				}
+			]
+		},
+		{
+			"id": "W06QCRPA9",
+			"real_name": "Gary ",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+					"start_time": "Feb 2 2020  1:33PM",
+					"end_time": "Feb 2 2020 5:54PM"
+				},
+				{
+					"start_time": "Dec 26 2020  10:33AM",
+					"end_time": "Dec 26 2020 8:02PM"
+				},
+				{
+					"start_time": "Jan 4 2021  9:33PM",
+					"end_time": "Jan 4 2021 10:02PM"
+				}
+			]
+		},
+		{
+			"id": "W12QCRPA9",
+			"real_name": "Rachel",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+					"start_time": "Nov 2 2020  1:33PM",
+					"end_time": "Nov 2 2020 4:54PM"
+				},
+				{
+					"start_time": "Dec 26 2020  10:33AM",
+					"end_time": "Dec 26 2020 8:02PM"
+				},
+				{
+					"start_time": "Jan 4 2021  9:33PM",
+					"end_time": "Jan 4 2021 10:02PM"
+				}
+			]
+		},
+		{
+			"id": "W11QCRPA9",
+			"real_name": "Jordan Black",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+					"start_time": "Oct 2 2020  1:33PM",
+					"end_time": "Oct 2 2020 4:54PM"
+				},
+				{
+					"start_time": "Sep 26 2020  10:33AM",
+					"end_time": "Sep 26 2020 8:02PM"
+				},
+				{
+					"start_time": "Jan 4 2021  9:33PM",
+					"end_time": "Jan 4 2021 10:02PM"
+				}
+			]
+		}
+	]
+}
